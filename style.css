@@ -1,0 +1,173 @@
+/* nav CSS*/
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  opacity: 0.7;
+}
+
+nav li {
+  display: inline;
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+nav a {
+  display: block;
+  padding: 8px;
+  color: white;
+}
+nav a:hover {
+  color: gray;
+}
+
+.active {
+  background-color: red;
+}
+
+.logo {
+  float: right;
+  object-fit: contain;
+  opacity: 0.7;
+}
+
+.title {
+  color: white;
+  position: relative;
+  text-align: center;
+  font-size: xx-large;
+}
+/* body CSS */
+
+body {
+  background: url(daruma-picture.jpg) fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-width: 100%;
+}
+
+/* homepage CSS */
+
+.intro {
+  color: white;
+  border: 1px solid black;
+  background-color: black;
+  opacity: 0.7;
+}
+
+/* menu page CSS */
+
+.specials {
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  opacity: 0.7;
+  width: 500px;
+  padding: 25px;
+  text-align: center;
+  float: left;
+}
+
+th {
+  text-align: center;
+}
+
+td {
+  text-align: center;
+}
+
+.menu-link a {
+  color: white;
+}
+
+.menu-link a:hover {
+  color: gray;
+}
+
+.hotpot {
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  opacity: 0.7;
+  width: 500px;
+  padding: 25px;
+  float: right;
+  text-align: center;
+}
+
+.hotpot a {
+  color: white;
+}
+
+.hotpot a:hover {
+  color: gray;
+}
+
+.sushi-pictures {
+  display: inline-block;
+  padding-top: 5px;
+}
+
+/* contact us page CSS */
+
+.hours {
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  opacity: 0.7;
+  width: 600px;
+  padding: 25px;
+  display: inline;
+  float: left;
+}
+
+.notice {
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  opacity: 0.7;
+  width: 600px;
+  padding: 25px;
+  display: inline;
+  float: right;
+}
+
+.reservation {
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  opacity: 0.7;
+  width: 600px;
+  padding: 25px;
+  display: inline;
+  float: right;
+}
+
+.center {
+  text-align: center;
+}
+
+/* all three pages CSS */
+
+img {
+  opacity: 0.8;
+}
+
+.address {
+  text-align: right;
+  color: white;
+}
+
+.address a {
+  color: white;
+}
+
+.address a:hover {
+  color: gray;
+}
